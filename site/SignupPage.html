@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Welcome in Our World</h1>
+    <form >
+        <!-- for user name-->
+        <label for="username"><strong>Username<sup>*</sup> : </strong> </label>
+        <input type="text" name="Username" id="username" placeholder="Enter username" required><br> <br>
+
+
+        <label for="mobile number"><strong>Mobile Number<sup>*</sup> : </strong> </label>
+        <input type="tel" name="mobile number" id="mobile number" minlength="10" maxlength="10" required><br><br>
+
+        <label for="email"><strong> Email(Optional) :</strong> </label>
+        <input type="email" name="Email" id="email" placeholder="Enter Email" ><br> <br>
+
+        <label for="password"><strong>Password<sup>*</sup> : </strong> </label>
+        <input type="password" name="Password" id="password" placeholder="Enter Password" required><br> <br>
+
+        <label for="psw_repeat"><strong>Repeat Password<sup>*</sup> : </strong> </label>
+        <input type="password" name="password" id="psw_repeat" placeholder="Repeat password" required><br> <br>
+        
+        <!--
+        <strong> Select gender<sup>*</sup></strong><br>
+        <input type="radio" name="Gender" value="male">Male
+        <input type="radio" value="female" name="Gender">Female
+        <input type="radio" value="other" name="Gender">Other
+        <br><br>
+        -->
+
+        <label>
+            <input type="checkbox" name="remember" style="margin-bottom:15px"> Remember me
+        </label>
+        <br><br>
+        
+        <input type="submit" value="Submit">
+    
+    </form>
+
+</body>
+</html>
